@@ -14,7 +14,7 @@ def input_to_index(input)
 end
 
   def position_taken?(board, index)
-    if board[index] == " " || board[index] == "" || board[index] == nil
+    board[index] == " " || board[index] == "" || board[index] == nil
       false
     else
       true
